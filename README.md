@@ -1,7 +1,7 @@
 # TurtleBot2 ROS2 Migration Project
 
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)](https://docs.ros.org/en/humble/)
-[![Platform](https://img.shields.io/badge/Platform-Kobuki-green)](https://kobuki.yujinrobot.com/)
+[![Platform](https://img.shields.io/badge/Platform-Kobuki-green)](https://iclebo-kobuki.readthedocs.io/en/latest/index.html)
 
 A comprehensive migration of TurtleBot2 (Kobuki base) from ROS1 to ROS2 Humble, featuring custom sensor configurations with Hokuyo LiDAR and Kinect depth camera.
 
@@ -18,6 +18,10 @@ A comprehensive migration of TurtleBot2 (Kobuki base) from ROS1 to ROS2 Humble, 
 [▶️ Direct Link: TurtleBot2 ROS2 Demo Video](https://youtu.be/Wfc_RwKe6ok)
 
 </div>
+
+## 📄 Project Presentation
+
+A detailed presentation about this project is available: [Presentation_Alvin Isac PREM SUNDER_Taichi HARAGUCHI_2024.pdf](./« Presentation_Alvin Isac PREM SUNDER_Taichi HARAGUCHI_2024.pdf)
 
 ---
 
@@ -86,7 +90,8 @@ cd ~/turtlebot2_ws/src
 2. **Clone this repository:**
 ```bash
 # Clone the main repository containing all packages
-git clone (i will fill after changing my repo name)
+git clone https://github.com/AlvinIsac/TurtleBot2-ROS2-Migration.git
+cd TurtleBot2-ROS2-Migration
 ```
 
 The repository contains three packages:
@@ -108,7 +113,7 @@ source install/setup.bash
 
 5. **Set up udev rules (for Kobuki):**
 ```bash
-sudo cp src/TurtleBot2_Migration/turtlebot2_ros2-main/kobuki_core/60-kobuki.rules /etc/udev/rules.d/
+sudo cp src/TurtleBot2-ROS2-Migration/turtlebot2_ros2-main/kobuki_core/60-kobuki.rules /etc/udev/rules.d/
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
