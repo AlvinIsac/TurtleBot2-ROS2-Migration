@@ -5,11 +5,12 @@
 
 A comprehensive migration of TurtleBot2 (Kobuki base) from ROS1 to ROS2 Humble, featuring custom sensor configurations with Hokuyo LiDAR and Kinect depth camera.
 
+<!--
 ## 📺 Demo Video
 
 <div align="center">
 
-<!--
+
 ### 🎥 Watch the TurtleBot2 running on ROS2 Humble!
 
 [![TurtleBot2 ROS2 Demo](https://img.youtube.com/vi/Wfc_RwKe6ok/maxresdefault.jpg)](https://youtu.be/Wfc_RwKe6ok)
