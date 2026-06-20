@@ -8,7 +8,8 @@ A comprehensive migration of TurtleBot2 (Kobuki base) from ROS1 to ROS2 Humble, 
 ## 📺 Demo Video
 
 <div align="center">
-  
+
+<!--
 ### 🎥 Watch the TurtleBot2 running on ROS2 Humble!
 
 [![TurtleBot2 ROS2 Demo](https://img.youtube.com/vi/Wfc_RwKe6ok/maxresdefault.jpg)](https://youtu.be/Wfc_RwKe6ok)
@@ -16,6 +17,7 @@ A comprehensive migration of TurtleBot2 (Kobuki base) from ROS1 to ROS2 Humble, 
 **Click the image above to watch the demonstration video**
 
 [▶️ Direct Link: TurtleBot2 ROS2 Demo Video](https://youtu.be/Wfc_RwKe6ok)
+-->
 
 </div>
 
